@@ -21,6 +21,6 @@ from HomePage import urls as H_urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(H_urls), name='passing Home page urls'),
-    path('resume/', include(H_urls), name='resume pathing'),
-    path('cover/', include(H_urls), name='cover page pathing'),
+    path('', include(H_urls), name='resume pathing'),
+    path('', include(H_urls), name='cover page pathing'),
 ]

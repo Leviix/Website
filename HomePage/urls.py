@@ -18,6 +18,6 @@ from . import views as H_views
 
 urlpatterns = [
     path('', H_views.Home_page, name='Home page function'),
-    path('resume/', H_views.resume, name='resume function'),
-    path('cover/', H_views.cover, name='cover page function'),
+    path('resume', H_views.resume, name='resume function'),
+    path('coverletter', H_views.cover, name='cover page function'),
 ]
